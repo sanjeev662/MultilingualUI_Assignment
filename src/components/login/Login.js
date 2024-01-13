@@ -26,7 +26,6 @@ const Login = () => {
             password: 'Adgangskode',
             signIn: 'Log ind',
         },
-        // Include translations for other languages as needed
         en_US: {
             enterCredentials: 'Please enter your administrator login and password.',
             username: 'Username',
