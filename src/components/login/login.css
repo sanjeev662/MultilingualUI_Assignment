@@ -67,14 +67,14 @@ body {
   }
 
 
-  .form button {
+  .form .btn{
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    width: 15vh;
+    width: 20vh;
    float: right;
     border: 0;
-    padding: 15px;
+    padding: 14px 15px;
     color: #FFFFFF;
     font-size: 14px;
     border-radius: 8px;
@@ -83,7 +83,13 @@ body {
     background-image: linear-gradient(to bottom, #b5d4e9 0%,#3e90c7 2%,#3484bb 50%,#2f74a3 50%,#296893 100%);
   }
  
- 
+  .form .btn.large {
+    width: 28vh;
+}
+
+.form .btn.medium {
+    width: 23vh;
+}
  
   .form .register-form {
     display: none;
@@ -104,8 +110,7 @@ body {
     }
 
     .login-page .logo-image {
-        max-width: 70%; /* Adjusted maximum width for smaller screens */
+        max-width: 70%; 
     }
 }
-
 
